@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin("https://frontend-argentinaprogra-58ec1.web.app")
+@CrossOrigin
+// ("https://frontend-argentinaprogra-58ec1.web.app")
 @RequestMapping("/personas")
 @RestController
 public class PersonaController {
